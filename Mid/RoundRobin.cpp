@@ -8,12 +8,10 @@ int main() {
 
     string pid[n];
     int at[n], bt[n], rt[n], ct[n];
-
     for (int i = 0; i < n; i++) {
         cin >> pid[i] >> at[i] >> bt[i];
         rt[i] = bt[i];
     }
-
     cin >> tq;
 
     queue<int> q;
